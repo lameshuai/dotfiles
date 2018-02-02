@@ -2,6 +2,8 @@
 function install_prepare_software() {
 
 	sudo apt-get install -y git gcc g++
+	rm -rf ~/.gitconfig
+	cp .gitconfig ~
 
 }
 
@@ -21,7 +23,7 @@ function install_tmux() {
 function install_zsh() {
 
 	sudo apt-get install -y zsh
-    chsh -s /bin/zsh
+        chsh -s /bin/zsh
 	rm -rf ~/.zshrc
 	cp .zshrc ~
 	git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
