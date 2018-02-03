@@ -54,9 +54,9 @@
 
     # Setopt {
 
-		export EDITOR=vim						# Default editor
-		export VISUAL=vim						# Viusal vim
- 		export GIT_EDITOR=vim					# Git default editor
+		export EDITOR=nvim						# Default editor
+		export VISUAL=nvim						# Viusal vim
+ 		export GIT_EDITOR=nvim					# Git default editor
 		export XMODIFIERS="@im=ibus"			# Typewriting
 		export QT_MODULE=ibus
 		export GTK_MODULE=ibus
