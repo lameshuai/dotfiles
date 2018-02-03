@@ -166,8 +166,8 @@
 		alias grep='grep --color=auto'
 		alias la='ls -a'
 		alias srzsh='source ~/.zshrc'
-		alias vizsh='vim ~/.zshrc'
-		alias vitml='vim ~/.tmux.conf.local'
+		alias vizsh='nvim ~/.zshrc'
+		alias vitml='nvim ~/.tmux.conf.local'
 
 	# }
 
