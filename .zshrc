@@ -1,6 +1,6 @@
 # Path{
 
-    PATH="/usr/local/bin:/usr/bin:/bin"   		# Setting Path
+    PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"   		# Setting Path
     export PATH
     export ZSH=$HOME/.oh-my-zsh		 			# Path to your oh-my-zsh installation.
 
